@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.headerIcon-links {
+  text-align: center;
+}
+
+.headerIcon-links a {
+  margin: 0 15px;
+  font-size: 30px;
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.headerIcon-links a:hover {
+  font-size: 35px;
+  color: #555;
+}
+
+.profile-Img {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.profile-Img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.brief-content {
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px 0;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.brief-content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.brief-content h2 {
+  margin-bottom: 15px;
+}
+
+.project-01,
+.project-02,
+.project-03 {
+  border: 2px solid #ddd;
+  padding: 20px;
+  margin: 15px 0;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+.project-01 a,
+.project-02 a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.project-01:hover,
+.project-02:hover,
+.project-03:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+}
