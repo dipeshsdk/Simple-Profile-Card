@@ -19,14 +19,3 @@ This is a **Simple Profile Card** project built using **HTML**, **CSS**, and **F
 - Simple project list with links to live previews or repositories.
 
 ---
-
-## 📂 Project Structure
-
-```plaintext
-Project/
-│
-├── index.html        # The main HTML file
-├── style.css         # Stylesheet for the project
-├── README.md         # Project documentation
-├── /IMG              # Folder for images
-│   └── Img.png       # Profile picture
